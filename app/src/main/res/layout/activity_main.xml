@@ -19,7 +19,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/flores"
+            android:src="@drawable/mifoto_round"
             android:layout_gravity="center"
             />
 
@@ -39,7 +39,8 @@
             android:gravity="center"
             android:padding="@dimen/size_nombre"
             android:text="@string/name"
-            android:textSize="@dimen/size_nombre" />
+            android:textSize="@dimen/size_nombre"
+            android:textColor="#f000"/>
 
         <LinearLayout
 
@@ -56,9 +57,9 @@
 
         android:layout_height="wrap_content"
 
-        android:layout_weight="1"
+        android:layout_weight="0.8"
 
-        android:src="@mipmap/facebook_icono"/>
+        android:src="@mipmap/fb"/>
 
     <TextView
 
@@ -82,7 +83,7 @@
 
         android:layout_weight="1"
 
-        android:src="@mipmap/twitter_icono"/>
+        android:src="@mipmap/insta"/>
 
     <TextView
 
@@ -120,9 +121,9 @@
 
         android:layout_height="wrap_content"
 
-        android:layout_weight="1"
+        android:layout_weight="0.5"
 
-        android:src="@mipmap/github_icono"/>
+        android:src="@mipmap/github"/>
 
     <TextView
 
@@ -137,6 +138,7 @@
         android:textSize="@dimen/text_redes"
 
         android:layout_gravity="center"/>
-</LinearLayout>
-
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
